@@ -49,7 +49,7 @@ def processCmd(c):
 
 if __name__ == "__main__":
     speak("Initializing Nova Assistant....")
-    # Listen for the wake word "Nova"
+    # Listen for the wake word "SENJAR"
     while True:
         # obtain audio from the microphone
         r = sr.Recognizer()
